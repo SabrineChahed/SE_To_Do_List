@@ -10,13 +10,16 @@ switch($vars['action']){
     exit;
   }break;
     
-   case "signup":{
+   case "do_signup":{
   }break;
     
-   case "signup":{
+   case "login":{
   }break;
     
-   case "signup":{
+   case "do_login":{
+  }break;
+    
+    case "logout":{
   }break;
 }
 ?>
