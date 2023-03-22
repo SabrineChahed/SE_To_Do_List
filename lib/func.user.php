@@ -1,5 +1,6 @@
 <?php
 
+include('view/user/login.php');
 function user_get_logged_user(){
     global $db,$appuser;
     
