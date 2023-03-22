@@ -4,6 +4,10 @@ switch($vars['action']){
   }break;
     
   case "signup":{
+    include("view/header.php");
+    include("view/user/signup.php");
+    include("view/footer.php");
+    exit;
   }break;
     
    case "signup":{
