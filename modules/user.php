@@ -11,6 +11,12 @@ switch($vars['action']){
   }break;
     
    case "do_signup":{
+     $ret=user_process_signup($vars);
+     if($ret['status'==1]{
+       header("location: index.php?action=list");
+       header("location: index.php?action=signup&error_message=".urlencode($ret['error']));
+       exit;
+     }
   }break;
     
    case "login":{
