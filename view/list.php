@@ -10,9 +10,9 @@
             </div>
         </div>
       </div>
-    
-    
-<form action="index.php" method="get">      
+
+
+    <form action="index.php" method="get">      
       <input type="hidden" name="action" value="do_add"    />
       <div class="row justify-content-between text-white p-2">
         
@@ -49,3 +49,4 @@
       </div>
     
     
+</div>
